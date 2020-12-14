@@ -1,0 +1,37 @@
+
+
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns:  1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "nav"
+    "left"
+    "right"
+    "footer";
+    row-gap: 200px;
+    column-gap: 100px;
+    
+    }
+
+
+    @media (min-width: 960px) {
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns:  1fr 1fr ;
+    grid-template-rows: .2fr 1fr .2fr;
+    grid-template-areas:
+    " nav nav "
+    " left right "
+    " footer footer ";
+    row-gap: 200px;
+    column-gap: 100px;
+    
+    }
+}
+
+
+

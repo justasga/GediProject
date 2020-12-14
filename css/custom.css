@@ -1,0 +1,43 @@
+body {
+    background-image: url(../img/bg.jpg) ;
+}
+header {
+    background: #008;
+    grid-area: nav;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    color: #fff;
+    grid-area: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #999;
+    
+    
+    
+
+}
+
+.right {
+    
+    grid-area: right;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #999;
+    
+}
+
+footer {
+    background: #999;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
