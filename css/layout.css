@@ -17,7 +17,7 @@
     }
 
 
-    @media (min-width: 960px) {
+    @media (min-width: 860px) {
 .container {
     display: grid;
     height: 100vh;
